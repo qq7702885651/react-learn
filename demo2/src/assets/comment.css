@@ -1,0 +1,147 @@
+/* 容器 */
+#container {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* 顶部控制栏 */
+.control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.control_left span {
+    font-size: 18px;
+    color: #222;
+}
+
+.control_right span {
+    cursor: pointer;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #777;
+}
+
+.control_right span:hover {
+    color: #00A1D6; /* B 站蓝 */
+}
+
+/* 用户输入区域 */
+.userInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 输入框 */
+.input input {
+    width: 500px;
+    padding: 10px 12px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.input input:focus {
+    border-color: #00A1D6;
+    box-shadow: 0 0 4px rgba(0, 161, 214, 0.3);
+}
+
+/* 发布按钮 */
+.userInput button {
+    padding: 8px 16px;
+    border: none;
+    background: #00A1D6;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.userInput button:hover {
+    background: #0091c7;
+}
+
+/* 评论区整体 */
+.comment-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 单条评论 */
+.comment-content-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s;
+}
+
+.comment-content-item:hover {
+    background: #fafafa;
+}
+
+/* 用户名 */
+.comment-content-item > p:first-child {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+/* 评论文本 */
+.comment-content-item > p:nth-child(2) {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* 评论底部信息 */
+.comment-content-item-info {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #888;
+}
+
+/* 删除按钮 */
+.comment-content-item-info span:last-child {
+    color: #f56c6c;
+    cursor: pointer;
+}
+
+.comment-content-item-info span:last-child:hover {
+    text-decoration: underline;
+}
+
+/* 点赞数字 */
+.comment-content-item-info span:nth-child(2) {
+    color: #666;
+}

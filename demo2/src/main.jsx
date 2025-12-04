@@ -3,9 +3,13 @@ import { createRoot } from 'react-dom/client'
 
 import App from './App.jsx'
 import App2 from './App2.jsx'
+import Comment from './Comment.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App2 />
+    {/* <App /> */}
+    {/* <App2 /> */}
+    <Comment />
+
   </StrictMode>,
 )

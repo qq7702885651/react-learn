@@ -1,0 +1,16 @@
+#app{
+    background-color: #838282;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.foot{
+    color: green;
+    font-weight: bold;
+}
