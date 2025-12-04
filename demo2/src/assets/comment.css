@@ -145,3 +145,14 @@
 .comment-content-item-info span:nth-child(2) {
     color: #666;
 }
+.control_right span.active {
+    color: #00A1D6;
+    font-weight: bold;
+}
+.control_right span.active:hover {
+    color: #00A1D6; /* B 站蓝 */
+}
+.comment-content-item .avatar{
+    float: left;
+    margin-right: 10px;
+}
