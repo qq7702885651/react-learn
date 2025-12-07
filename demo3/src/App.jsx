@@ -6,6 +6,7 @@ import Test4 from './Test4.jsx'
 import Test5 from './Test5.jsx'
 import Test6 from './Test6.jsx'
 import Test7 from './Test7.jsx'
+import Test8 from './Test8.jsx'
 function App() {
 
 
@@ -17,7 +18,8 @@ function App() {
       {/* <Test4/> */}
       {/* <Test5/> */}
       {/* <Test6/> */}
-      <Test7/>
+      {/* <Test7/> */}
+      <Test8/>
     </>
   )
 }
