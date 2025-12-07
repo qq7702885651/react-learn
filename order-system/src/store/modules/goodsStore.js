@@ -1,4 +1,4 @@
-// channelSlice.js
+// goodsSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
